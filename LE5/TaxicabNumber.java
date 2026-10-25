@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 
 
@@ -77,7 +76,6 @@ public class TaxicabNumber {
                     ArrayList<Integer> pair = new ArrayList<>();
                     pair.add(a);
                     pair.add(b);
-                    Collections.sort(pair);
                     ans.get(n).add(pair);
                 }
             }
